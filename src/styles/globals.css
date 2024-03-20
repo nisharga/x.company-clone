@@ -41,3 +41,22 @@
         scrollbar-width: none; /* Firefox */
     }
 }
+
+
+@media only screen and (max-width: 1024px) {
+    .wordwrite {
+        font-size: 32px !important;
+        padding-right: 0px !important;
+        letter-spacing: 1px !important;
+        word-spacing: 18px !important;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .wordwrite {
+        font-size: 26px !important;
+        padding-right: 0px !important;
+        letter-spacing: 1px !important;
+        word-spacing: 18px !important;
+    }
+  }

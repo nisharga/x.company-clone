@@ -1,9 +1,11 @@
-import { Video } from './Video';
+import { Heroarea } from './Heroarea';
+import { Video } from './Video'; 
 
 const Homepage = () => {
     return (
         <div>
             <Video />
+            <Heroarea />
         </div>
     );
 };
