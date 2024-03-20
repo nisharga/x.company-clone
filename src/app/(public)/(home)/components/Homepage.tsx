@@ -1,5 +1,11 @@
+import { Video } from './Video';
+
 const Homepage = () => {
-    return <div data-aos='fade-up'>Homepage</div>;
+    return (
+        <div>
+            <Video />
+        </div>
+    );
 };
 
 export default Homepage;

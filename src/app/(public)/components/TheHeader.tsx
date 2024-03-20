@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 const TheHeader = () => {
     return (
-        <header className='container flex items-center justify-between pt-2 bg-white h-16 md:h-28 lg:h-36 dark:bg-gray-700'>
+        <header className='container flex items-center justify-between pt-2 bg-white h-16 md:h-28 lg:h-36 dark:bg-gray-700 px-4'>
             <Link href='/'>
                 <Logo className='w-16' />
             </Link>
