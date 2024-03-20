@@ -21,9 +21,9 @@ export const ThemeSwitcher = () => {
             onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
         >
             {theme === 'light' ? (
-                <Icons.Moon className='stroke-gray-800 stroke-[1.25px]' />
+                <Icons.Moon className='stroke-gray-800 stroke-[1.25px] w-8 md:w-16' size={40} />
             ) : (
-                <Icons.SunMedium className='stroke-[1.25px]' />
+                <Icons.SunMedium className='stroke-[1.25px] w-8 md:w-16' size={40}/>
             )}
         </button>
     );
