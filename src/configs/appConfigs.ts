@@ -9,5 +9,6 @@ export const SITE_VERIFICATION_GOOGLE_DEFAULT =
 
 export const FONT_DEFAULT = Roboto({
     weight: '400',
+    variable: '--font-roboto-sans',
     subsets: ['latin'],
   })
