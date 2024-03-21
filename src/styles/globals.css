@@ -42,7 +42,30 @@
     }
 }
 
-
+.moonImg {
+    background-image: url('https://i.ibb.co/qn927Jf/moon.jpg');
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.rocketImg {
+    background-image: url('https://i.ibb.co/XC2pXhn/pexels-pixabay-2166.jpg');
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.snowImg {
+    background-image: url('https://i.ibb.co/WzhPSq8/pexels-ekam-juneja-17138137.jpg');
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 @media only screen and (max-width: 1024px) {
     .wordwrite {
         font-size: 32px !important;
@@ -50,13 +73,13 @@
         letter-spacing: 1px !important;
         word-spacing: 18px !important;
     }
-  }
-  
-  @media only screen and (max-width: 768px) {
+}
+
+@media only screen and (max-width: 768px) {
     .wordwrite {
         font-size: 26px !important;
         padding-right: 0px !important;
         letter-spacing: 1px !important;
         word-spacing: 18px !important;
     }
-  }
+}

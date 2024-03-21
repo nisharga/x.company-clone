@@ -1,9 +1,10 @@
-import { LucideProps, Moon, SunMedium, Menu } from 'lucide-react';
+import { LucideProps, Moon, SunMedium, Menu, ArrowRight } from 'lucide-react';
 
 export const Icons = {
     Moon,
     SunMedium,
     Menu,
+    ArrowRight,
     EmptyBox: (props: LucideProps) => (
         <svg
             {...props}
@@ -18,6 +19,5 @@ export const Icons = {
                 fill='inherite'
             />
         </svg>
-    ),
-    
+    )
 };

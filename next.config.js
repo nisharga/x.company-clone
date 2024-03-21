@@ -1,4 +1,14 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+    images: {
+        remotePatterns: [
+            {
+                protocol: 'https',
+                hostname: 'i.ibb.co'
+            }
+        ],
+        domains: ['lh3.googleusercontent.com', 'firebasestorage.googleapis.com']
+    }
+};
 
 module.exports = nextConfig;
