@@ -1,37 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Clone of https://x.company website
 
-## Getting Started
+## Header with Video
 
-First, run the development server:
+![App Screenshot](https://i.ibb.co/7NRqCsQ/Screenshot-35.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## HeroArea
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![App Screenshot](https://i.ibb.co/HpwTvyn/Screenshot-36.png)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Paralax
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+![App Screenshot](https://i.ibb.co/vjwV91T/Screenshot-37.png)
 
-## Learn More
+## Masonary
 
-To learn more about Next.js, take a look at the following resources:
+![App Screenshot](https://i.ibb.co/7KGzbrv/Screenshot-39.png)
 
--   [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
--   [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## TimeLine
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+![App Screenshot](https://i.ibb.co/64jLcT7/Screenshot-40.png)
 
-## Deploy on Vercel
+## Slider
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![App Screenshot](https://i.ibb.co/0h7jD9s/Screenshot-41.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# x.company-clone
+## Footer
+
+![App Screenshot](https://i.ibb.co/HtvbFsk/Screenshot-42.png)

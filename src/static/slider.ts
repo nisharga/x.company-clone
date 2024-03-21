@@ -14,7 +14,7 @@ export const SLIDER_DATA = [
     {
         id: '3',
         img: 'slider3',
-        title1: 'The Self-Driving Car team, Xs first moonshot project, graduates to',
-        title2: 'building a better driver and making it safe and easy for everyone to get around.'
+        title1: 'The Self-Driving Car team, ',
+        title2: 'building a better driver and making it safe and easy for everyone to get around. THis is Xs model moonshot project, within 2024 you will get this.'
     }
 ];
