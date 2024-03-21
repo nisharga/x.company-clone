@@ -1,6 +1,7 @@
 import { Heroarea } from './Heroarea';
 import { ParallaxImage } from './Parallax';
 import { Stories } from './Stories';
+import { TimeLine } from './TimeLine';
 import { Video } from './Video';
 
 const Homepage = () => {
@@ -10,6 +11,7 @@ const Homepage = () => {
             <Heroarea />
             <ParallaxImage />
             <Stories />
+             <TimeLine/>
         </div>
     );
 };
