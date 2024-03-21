@@ -1,10 +1,20 @@
-import { LucideProps, Moon, SunMedium, Menu, ArrowRight } from 'lucide-react';
+import {
+    LucideProps,
+    Moon,
+    SunMedium,
+    Menu,
+    ArrowRight,
+    ChevronRight,
+    ChevronLeft
+} from 'lucide-react';
 
 export const Icons = {
     Moon,
     SunMedium,
     Menu,
     ArrowRight,
+    ChevronRight,
+    ChevronLeft,
     EmptyBox: (props: LucideProps) => (
         <svg
             {...props}
