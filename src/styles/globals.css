@@ -65,6 +65,14 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: -1;
+}
+.stroyMoonImg {
+    background-image: url('https://i.ibb.co/vHd8znG/pexels-akbar-nemati-17240838.jpg');
+    height: 620px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 @media only screen and (max-width: 1024px) {
     .wordwrite {
