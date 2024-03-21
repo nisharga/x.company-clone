@@ -55,7 +55,10 @@ const SliderImage = () => {
                 ))}
             </Slider>
 
-            <div className='absolute right-6 bottom-16 w-[200px]'>
+            <div
+                className='absolute right-6 bottom-16 w-[200px]'
+                data-aos='fade-up'
+            >
                 <div className='flex gap-4'>
                     <button
                         onClick={prevSlide}

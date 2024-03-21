@@ -4,6 +4,7 @@ import { Stories } from './Stories';
 import { TimeLine } from './TimeLine';
 import { Video } from './Video';
 import { SliderImage } from './SliderSection';
+import { MasonryImage } from './MasonryImage';
 
 const Homepage = () => {
     return (
@@ -12,8 +13,8 @@ const Homepage = () => {
             <Heroarea />
             <ParallaxImage />
             <Stories />
-            <TimeLine />
-            {/* <Slider /> */}
+            <MasonryImage />
+            <TimeLine /> 
             <SliderImage />
         </div>
     );
