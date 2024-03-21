@@ -62,15 +62,21 @@ const SliderImage = () => {
                 <div className='flex gap-4'>
                     <button
                         onClick={prevSlide}
-                        className='w-12 h-12 bg-gray-300 rounded-full flex items-center justify-center'
+                        className='w-12 h-12 bg-gray-300 dark:bg-gray-700 rounded-full flex items-center justify-center'
                     >
-                        <Icons.ChevronLeft size={40} />
+                        <Icons.ChevronLeft
+                            size={40}
+                            className='dark:text-gray-500'
+                        />
                     </button>
                     <button
                         onClick={nextSlide}
-                        className='w-12 h-12 bg-gray-300 rounded-full flex items-center justify-center'
+                        className='w-12 h-12 bg-gray-300 dark:bg-gray-700 rounded-full flex items-center justify-center'
                     >
-                        <Icons.ChevronRight size={40} />
+                        <Icons.ChevronRight
+                            size={40}
+                            className='dark:text-gray-500'
+                        />
                     </button>
                 </div>
             </div>

@@ -6,8 +6,10 @@ const Stories = () => {
     return (
         <div className='relative'>
             <div className='absolute left-0 -top-20' data-aos='fade-right'>
-                <div className='bg-[#FFB300] py-6 px-20'>
-                    <p className='text-2xl font-semibold'>STORIES + NEWS </p>
+                <div className='bg-[#FFB300] py-6 px-20 dark:bg-orchid-100'>
+                    <p className='text-2xl font-semibold dark:text-gray-500'>
+                        STORIES + NEWS{' '}
+                    </p>
                 </div>
             </div>
             <div

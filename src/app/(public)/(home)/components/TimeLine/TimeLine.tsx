@@ -4,8 +4,10 @@ const TimeLine = () => {
     return (
         <div className='relative'>
             <div className='absolute left-0 -top-20' data-aos='fade-right'>
-                <div className='bg-orchid-500 py-6 px-20'>
-                    <p className='text-2xl font-semibold'>X TIMELINE</p>
+                <div className='bg-orchid-500 py-6 px-20 dark:bg-orchid-100'>
+                    <p className='text-2xl font-semibold dark:text-gray-500'>
+                        X TIMELINE
+                    </p>
                 </div>
             </div>
             <div

@@ -69,7 +69,7 @@ const MasonryImage = () => {
     ];
 
     return (
-        <div className='container pt-16 pb-64'>
+        <div className='container pt-16 pb-64 overflow-hidden'>
             <Masonry>
                 {boxes.map((box: any, index) => (
                     <div key={index} style={box} data-aos={box?.animation}>
