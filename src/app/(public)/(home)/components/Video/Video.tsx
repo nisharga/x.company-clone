@@ -1,7 +1,7 @@
 const Video = () => {
     return (
         <div data-aos='zoom-out'>
-            <div className='container bg-fuchsia-500 p-0'>
+            <div className='container p-0'>
                 <div className='w-full h-[540px] relative'>
                     <video
                         autoPlay
