@@ -2,6 +2,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
 'use client';
+import Image from 'next/image';
 import { Masonry } from 'react-masonry';
 
 const MasonryImage = () => {
@@ -9,61 +10,51 @@ const MasonryImage = () => {
         {
             width: `33%`,
             height: 350,
-            background: '#FFF9DF',
-            padding: '10px',
             border: '10px solid #fff',
             boxSizing: 'border-box',
-            colourName: 'Blond 10% color',
+            image: 'https://i.ibb.co/vHd8znG/pexels-akbar-nemati-17240838.jpg',
             animation: 'fade-right'
         },
         {
             width: `33%`,
             height: 700,
-            background: '#FFF3BF',
-            padding: '10px',
             border: '10px solid #fff',
             boxSizing: 'border-box',
-            colourName: 'Blond 30% color',
+            image: 'https://i.ibb.co/XC2pXhn/pexels-pixabay-2166.jpg',
             animation: 'fade-down'
         },
         {
             width: `33%`,
             height: 350,
-            background: '#FFE99E',
-            padding: '10px',
             border: '10px solid #fff',
             boxSizing: 'border-box',
-            colourName: 'Blond 60% color',
+            image: 'https://i.ibb.co/vHd8znG/pexels-akbar-nemati-17240838.jpg',
             animation: 'fade-left'
         },
         {
             width: `33%`,
             height: 700,
-            background: '#FFE07E',
-            padding: '10px',
             border: '10px solid #fff',
             boxSizing: 'border-box',
-            colourName: 'Sunglow 10% color',
+            // image: 'https://i.ibb.co/qn927Jf/moon.jpg',
+            image: 'https://i.ibb.co/WzhPSq8/pexels-ekam-juneja-17138137.jpg',
             animation: 'fade-right'
         },
         {
             width: `33%`,
             height: 700,
-            background: '#FFD65D',
-            padding: '10px',
             border: '10px solid #fff',
             boxSizing: 'border-box',
-            colourName: 'Sunglow 30% color',
+            // image: 'https://i.ibb.co/vHd8znG/pexels-akbar-nemati-17240838.jpg',
+            image: 'https://i.ibb.co/WzhPSq8/pexels-ekam-juneja-17138137.jpg',
             animation: 'fade-left'
         },
         {
             width: `33%`,
             height: 350,
-            background: '#FFCC3D',
-            padding: '10px',
             border: '10px solid #fff',
             boxSizing: 'border-box',
-            colourName: 'Sunglow 60% color',
+            image: 'https://i.ibb.co/XC2pXhn/pexels-pixabay-2166.jpg',
             animation: 'fade-up'
         }
     ];
@@ -74,7 +65,14 @@ const MasonryImage = () => {
                 {boxes.map((box: any, index) => (
                     <div key={index} style={box} data-aos={box?.animation}>
                         <div className='flex items-center justify-center h-full text-base font-semibold md:text-xl p-2'>
-                            {box?.colourName}
+                            <Image
+                                className='h-full w-auto'
+                                src={box.image}
+                                width={100}
+                                height={60}
+                                unoptimized
+                                alt='tru-brand'
+                            />
                         </div>
                     </div>
                 ))}
